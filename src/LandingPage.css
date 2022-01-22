@@ -1,0 +1,99 @@
+.LandingPage {
+}
+.LandingPage-body {
+  height: 690px;
+  width: 1450px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3.5px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.LandingPage-body-right {
+  background-color: rgb(255, 255, 255);
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+  height: 550px;
+  position: sticky;
+}
+
+
+.top-img {
+  height: 200px;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.top-img {
+  -webkit-animation: mover 3.5s infinite alternate;
+  animation: mover-top 3.5s infinite alternate;
+}
+@-webkit-keyframes mover-top {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.13);
+  }
+}
+@keyframes mover-top {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.13);
+  }
+}
+
+.lower-img {
+  height: 400px;
+  margin-top: -110px;
+  width: 350px;
+  margin-left: 25px;
+
+}
+.lower-img {
+  -webkit-animation: mover 3.5s infinite alternate;
+  animation: mover 3.5s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-15px);
+  }
+}
+
+.LPBR-body{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+
+.LandingPage-body-left {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  width: 600px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+.LBLC-description{
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: rgb(129, 129, 129);
+}
+
