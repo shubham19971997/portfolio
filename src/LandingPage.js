@@ -2,32 +2,34 @@ import React from 'react'
 import './LandingPage.css'
 import lowerImg from './images/yoga-coder.png'
 import topImg from './images/yoga-coder-otherstuff.png'
-import TypingEffect from './TypingEffect'
+import Home from './pages/Home'
+import Contact from './pages/Contact'
+import Projects from './pages/Projects'
+import Skills from './pages/Skills'
+import Navbar from './Navbar'
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
 
 function LandingPage() {
   return (
-    <div className='LandingPage'>
-      <div className='LandingPage-body'>
-        <div className='LandingPage-body-left'>
-          <div className='LandingPage-body-left-content'>
-            <TypingEffect />
-            <p className="LBLC-description">
-              hello there I'm a aspiring React Developer who have a prior
-              knowledge in node.js
-              and mongodb and little about knowledge of
-              typescript
-            </p>
-
-          </div>
-        </div>
-        <div className='LandingPage-body-right'>
-          <div className='LPBR-body'>
-            <img src={topImg} className='top-img' />
-            <img src={lowerImg} className='lower-img' />
+    <Router>
+      <div className='LandingPage'>
+        <div className='LandingPage-body'>
+          <Navbar />
+          <Switch>
+            <Route path='/skills' component={Skills} />
+            <Route path='/project' component={Projects} />
+            <Route path='/contact' component={Contact} />
+            <Route path='/' component={Home} />
+          </Switch>
+          <div className='LandingPage-body-right'>
+            <div className='LPBR-body'>
+              <img src={topImg} className='top-img' alt='img' />
+              <img src={lowerImg} className='lower-img' alt='img' />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </Router>
   )
 }
 
