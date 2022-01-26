@@ -1,7 +1,13 @@
-import React from 'react';
+import React from 'react'
+import TypeEffect from './typeEffect'
+import './projects.css'
 
 function Projects() {
-  return <div>Projects</div>;
+  return (
+    <div className="projects">
+      <TypeEffect name='Projects' />
+    </div>
+  )
 }
 
-export default Projects;
+export default Projects

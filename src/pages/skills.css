@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin-top: -80px;
+}
+.skills > h1 {
+  font-size: 40px;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 10px;
+  color: rgb(51, 48, 48);
+}
+
+.skills-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.skills-body-skill {
+  height: 80px;
+  width: 80px;
+  background-color: rgb(25, 106, 226);
+  border-radius: 3px;
+  margin: 5px;
+  transition: 0.5s ease-in;
+}
+
+.skills-body-skill:hover {
+  transform: scale(1.1);
+}
+
+.skills-body-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-body-skill > p {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+}
+
+.skills-typeEffect {
+  margin-top: 0px;
+}
+
+.skills-logo {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.skills-logo-html {
+  background-color: #dd4b25;
+}
+.skills-logo-css {
+  background-color: #254bdd;
+}
+.skills-logo-js {
+  background-color: #efd81d;
+}
+.skills-logo-react {
+  background-color: #5ed3f3;
+}
+.skills-logo-redux {
+  background-color: #7248b6;
+}
+.skills-logo-node {
+  background-color: #72a960;
+}
+
+.skills-body-skill>h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 19px;
+}
+

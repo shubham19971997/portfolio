@@ -15,16 +15,20 @@ function LandingPage() {
       <div className='LandingPage'>
         <div className='LandingPage-body'>
           <Navbar />
-          <Switch>
-            <Route path='/skills' component={Skills} />
-            <Route path='/project' component={Projects} />
-            <Route path='/contact' component={Contact} />
-            <Route path='/' component={Home} />
-          </Switch>
-          <div className='LandingPage-body-right'>
-            <div className='LPBR-body'>
-              <img src={topImg} className='top-img' alt='img' />
-              <img src={lowerImg} className='lower-img' alt='img' />
+          <div className='LandingPage-content-body'>
+            <div className='LandingPage-body-left'>
+              <Switch>
+                <Route path='/skills' component={Skills} />
+                <Route path='/project' component={Projects} />
+                <Route path='/contact' component={Contact} />
+                <Route path='/' component={Home} />
+              </Switch>
+            </div>
+            <div className='LandingPage-body-right'>
+              <div className='LPBR-body'>
+                <img src={topImg} className='top-img' alt='img' />
+                <img src={lowerImg} className='lower-img' alt='img' />
+              </div>
             </div>
           </div>
         </div>
