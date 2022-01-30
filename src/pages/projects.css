@@ -1,19 +1,65 @@
-.projects{
-    display: flex;
-    flex-direction: column;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+.projects {
+  display: flex;
+  flex-direction: column;
 }
-.projects-heading{
-    margin-top: -80px;
+.projects-heading {
+  margin-top: -80px;
 }
-.projects-body-box{
-    height: 180px;
-    width: 180px;
-    background-color: rgb(70, 150, 139);
-    border-radius: 5px;
-    margin-top: 20px;
+.projects-body-box {
+  height: 200px;
+  width: 180px;
+  background-color: rgb(70, 150, 139);
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: 0.4s ease-in-out;
+  display: flex;
+  flex-direction: column;
 }
-.projects-body-row{
+.projects-body-box:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+  box-shadow: 10px 5px 10px rgba(49, 110, 112, 0.658);
+}
+.projects-body-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.projects-body-box-img {
+  height: 140px;
+  width: 180px;
+  border-radius: 5px;
+}
+.projects-body-row2 {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  align-items: center;
+}
+.projects-srb {
+  margin-left: 30px;
+}
+
+.projects-body-box-text {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.projects-body-box-text-tech {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-size: 13px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.projects-body-text-logo{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
+}
+.github-logo{
+    margin-left: 10px;
+    margin-top: 5px;
 }
