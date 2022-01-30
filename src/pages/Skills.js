@@ -4,6 +4,8 @@ import TypeEffect from './typeEffect'
 import { GrReactjs } from 'react-icons/gr'
 import { DiJavascript1 } from 'react-icons/di'
 import { SiRedux, SiHtml5, SiCss3, SiNodedotjs } from 'react-icons/si'
+import { FaDownload } from 'react-icons/fa'
+import resume from '../images/resume-img.jpg'
 
 function skills() {
   return (
@@ -43,8 +45,23 @@ function skills() {
             <h1>API</h1>
           </div>
         </div>
+        <div className='skills-body-resume'>
+          <h2>Resume</h2>
+          <div className='skills-body-resume-body'>
+            <div>
+              <img
+                src={resume}
+                alt='resume'
+                className='skills-body-resume-body-img'
+              />
+              {/* <FaDownload color={'white'} size={20} className="skills-body-resume-download" /> */}
+            </div>
+            <p className='skills-body-resume-body-text'>
+              Click here to download
+            </p>
+          </div>
+        </div>
       </div>
-      
     </div>
   )
 }

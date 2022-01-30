@@ -71,9 +71,39 @@
   background-color: #72a960;
 }
 
-.skills-body-skill>h1{
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    margin-top: 19px;
+.skills-body-skill > h1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 19px;
 }
 
+.skills-body-resume {
+  margin-top: 40px;
+  font-family: 'Raleway', sans-serif;
+}
+.skills-body-resume-body {
+  margin-top: 10px;
+  height: 140px;
+  width: 200px;
+  font-size: 14px;
+  background-color: #2b3a4d;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+.skills-body-resume-body-img {
+  height: 120px;
+  width: 200px;
+  border-radius:5px;
+}
+.skills-body-resume-body-img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.skills-body-resume-body-text{
+  text-align: center;
+  color: rgb(255, 249, 249);
+}
+.skills-body-resume-download{
+  margin-top: 0px;
+}
