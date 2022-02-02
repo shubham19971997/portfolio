@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+.contact-heading {
+  margin-top: -80px;
+}
+.contact-top-contact {
+  display: flex;
+  margin-top: 30px;
+}
+.contact-top-heading {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(44, 46, 48);
+}
+.contact-top-phone {
+  margin-left: 130px;
+}
+.contact-top-content{
+    margin-top: 7px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(88, 88, 87);
+}
+.contact-social-media{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-social-media-fr{
+    display: flex;
+    margin-left: 0px;
+}
+.social-media-box{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 50%;
+    transition: .25s ease-in-out;
+    margin: 10px;
+}
+.social-media-box:hover{
+    background-color: #1773EA;
+    cursor: pointer;
+}
+.social-media-logo{
+   margin-left: 33px;
+   margin-top: 30px;
+   color: white;
+}
+.social-media-box-gh{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 50%;
+    transition: .25s ease-in-out;
+    margin: 10px;
+}
+.social-media-box-gh:hover{
+    background-color: rgb(14, 13, 13);
+    cursor: pointer;
+}
+.social-media-box-ig{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    border-radius: 50%;
+    transition: .25s ease-in-out;
+    margin: 10px;
+}
+.social-media-box-ig:hover{
+    background-color: rgb(153, 60, 66);
+    cursor: pointer;
+}

@@ -9,7 +9,7 @@
 .projects-body-box {
   height: 200px;
   width: 180px;
-  background-color: rgb(70, 150, 139);
+  background-color: rgb(57, 124, 116);
   border-radius: 5px;
   margin-top: 20px;
   transition: 0.4s ease-in-out;
@@ -41,8 +41,10 @@
   margin-left: 30px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Proza+Libre&display=swap');
+
 .projects-body-box-text {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Proza Libre', sans-serif;
   color: white;
   margin-left: 5px;
   margin-top: 5px;
@@ -52,14 +54,14 @@
   color: white;
   font-size: 13px;
   margin-left: 5px;
+  margin-top: 0px;
+}
+.projects-body-text-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.github-logo {
+  margin-right: 4px;
   margin-top: 5px;
-}
-.projects-body-text-logo{
-    display: flex;
-    flex-direction: row;
-    
-}
-.github-logo{
-    margin-left: 10px;
-    margin-top: 5px;
 }
