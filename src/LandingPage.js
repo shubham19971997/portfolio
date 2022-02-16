@@ -18,9 +18,9 @@ function LandingPage() {
           <div className='LandingPage-content-body'>
             <div className='LandingPage-body-left'>
               <Switch>
-                <Route path='/skills' component={Skills} />
-                <Route path='/project' component={Projects} />
-                <Route path='/contact' component={Contact} />
+                <Route path='/project/1' component={Projects} />
+                <Route path='/skills/2' component={Skills} />
+                <Route path='/contact/3' component={Contact} />
                 <Route path='/' component={Home} />
               </Switch>
             </div>

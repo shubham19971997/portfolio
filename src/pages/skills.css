@@ -2,7 +2,7 @@
 .skills {
   display: flex;
   flex-direction: column;
-  margin-top: -80px;
+  margin-top: 10px;
 }
 .skills > h1 {
   font-size: 40px;
@@ -44,7 +44,6 @@
 }
 
 .skills-typeEffect {
-  margin-top: 0px;
 }
 
 .skills-logo {
@@ -94,16 +93,16 @@
 .skills-body-resume-body-img {
   height: 120px;
   width: 200px;
-  border-radius:5px;
+  border-radius: 5px;
 }
-.skills-body-resume-body-img:hover{
+.skills-body-resume-body-img:hover {
   opacity: 0.5;
   cursor: pointer;
 }
-.skills-body-resume-body-text{
+.skills-body-resume-body-text {
   text-align: center;
   color: rgb(255, 249, 249);
 }
-.skills-body-resume-download{
+.skills-body-resume-download {
   margin-top: 0px;
 }

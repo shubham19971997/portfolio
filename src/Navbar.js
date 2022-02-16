@@ -11,17 +11,17 @@ function Navbar() {
         </Link>
       </div>
       <div>
-        <Link to='/skills'>
+        <Link to='/skills/2'>
           <a className='navbar-heading'>Skills</a>
         </Link>
       </div>
       <div>
-        <Link to='/project'>
+        <Link to='/project/1'>
           <a className='navbar-heading'>Projects</a>
         </Link>
       </div>
       <div>
-        <Link to='/contact'>
+        <Link to='/contact/3'>
           <a className='navbar-heading'>Contact</a>
         </Link>
       </div>
