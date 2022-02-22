@@ -1,7 +1,13 @@
 import React from 'react'
 import TypeEffect from './typeEffect'
 import './Contact.css'
-import { GrFacebookOption, GrInstagram, GrLinkedinOption,GrGithub,GrTwitter } from 'react-icons/gr'
+import {
+  GrFacebookOption,
+  GrInstagram,
+  GrLinkedinOption,
+  GrGithub,
+  GrTwitter,
+} from 'react-icons/gr'
 
 function Contact() {
   return (
@@ -21,23 +27,39 @@ function Contact() {
       </div>
       <div className='contact-social-media'>
         <div className='contact-social-media-fr'>
-          <div className='social-media-box'>
-            <GrFacebookOption className='social-media-logo' size={35} />
-          </div>
-          <div className='social-media-box-ig'>
-            <GrInstagram className='social-media-logo' size={35} />
-          </div>
-          <div className='social-media-box'>
-            <GrLinkedinOption className='social-media-logo' size={35} />
-          </div>
+          <a
+            href='https://www.facebook.com/shubham.sikarwar.560'
+            target='_blank'
+          >
+            <div className='social-media-box'>
+              <GrFacebookOption className='social-media-logo' size={35} />
+            </div>
+          </a>
+          <a href='https://www.instagram.com/shubham_raahi/' target='_blank'>
+            <div className='social-media-box-ig'>
+              <GrInstagram className='social-media-logo' size={35} />
+            </div>
+          </a>
+          <a
+            href='https://www.linkedin.com/in/shubham-sikarwar-6085b3163/'
+            target='_blank'
+          >
+            <div className='social-media-box'>
+              <GrLinkedinOption className='social-media-logo' size={35} />
+            </div>
+          </a>
         </div>
         <div className='contact-social-media-fr'>
-          <div className='social-media-box-gh'>
-            <GrGithub className='social-media-logo' size={35} />
-          </div>
-          <div className='social-media-box'>
-            <GrTwitter className='social-media-logo' size={35} />
-          </div>
+          <a href='https://github.com/shubham19971997' target='_blank'>
+            <div className='social-media-box-gh'>
+              <GrGithub className='social-media-logo' size={35} />
+            </div>
+          </a>
+          <a href='https://twitter.com/Shubham70679683' target='_blank'>
+            <div className='social-media-box'>
+              <GrTwitter className='social-media-logo' size={35} />
+            </div>
+          </a>
         </div>
       </div>
     </div>

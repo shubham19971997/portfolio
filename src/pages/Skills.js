@@ -49,15 +49,18 @@ function skills() {
           <h2>Resume</h2>
           <div className='skills-body-resume-body'>
             <div>
+              <a href="https://github.com/" target='_blank'>
               <img
                 src={resume}
                 alt='resume'
                 className='skills-body-resume-body-img'
+                href="https://www.googleapis.com/"
               />
-              {/* <FaDownload color={'white'} size={20} className="skills-body-resume-download" /> */}
+              </a>
             </div>
+            <FaDownload color={'white'} size={20} className="skills-body-resume-download" />
             <p className='skills-body-resume-body-text'>
-              Click here to download
+              Click here For Resume
             </p>
           </div>
         </div>

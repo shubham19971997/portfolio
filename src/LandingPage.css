@@ -88,7 +88,7 @@
 .LandingPage-body-left {
   background-color: rgb(255, 255, 255);
   width: 600px;
-  padding-top: 75px;
+  padding-top: 80px;
 }
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
 .LBLC-description {
@@ -101,7 +101,7 @@
 }
 
 .left-part-content-heading-skills {
-  margin-top: 20px;
+  margin-top: 40px;
   color: rgb(58, 57, 57);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -144,4 +144,29 @@
 
 .margin{
   margin-left: 20px;
+}
+
+.resume-home{
+  margin-top: 10px;
+  height: 30px;
+  width: 100px;
+  background-color: #79DAD6;
+  border-radius: 10px;
+  border: 2px solid rgb(163, 160, 160);
+  cursor: pointer;
+  transition: .8s ease-in-out;
+  color: rgb(58, 54, 54);
+}
+
+.resume-home:hover{
+  background-color: #FFDB09;
+  border: 2px solid rgb(129, 128, 128);
+}
+
+.resume-home-text{
+  text-align: center;
+  margin-top: 7px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 200;
 }

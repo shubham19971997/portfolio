@@ -82,8 +82,8 @@
 }
 .skills-body-resume-body {
   margin-top: 10px;
-  height: 140px;
-  width: 200px;
+  height: 100px;
+  width: 150px;
   font-size: 14px;
   background-color: #2b3a4d;
   display: flex;
@@ -91,18 +91,22 @@
   border-radius: 5px;
 }
 .skills-body-resume-body-img {
-  height: 120px;
-  width: 200px;
+  height: 100px;
+  width: 150px;
   border-radius: 5px;
+  display: block;
+  position: relative;
 }
 .skills-body-resume-body-img:hover {
-  opacity: 0.5;
+  opacity: 0.2;
   cursor: pointer;
 }
 .skills-body-resume-body-text {
+  font-size: 12px;
   text-align: center;
   color: rgb(255, 249, 249);
 }
 .skills-body-resume-download {
-  margin-top: 0px;
+  margin-left: 60px;
+  margin-top: -60px;
 }
