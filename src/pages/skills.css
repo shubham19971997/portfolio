@@ -23,7 +23,7 @@
   background-color: rgb(25, 106, 226);
   border-radius: 3px;
   margin: 5px;
-  transition: 0.5s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .skills-body-skill:hover {
@@ -96,6 +96,7 @@
   border-radius: 5px;
   display: block;
   position: relative;
+  transition: .5s ease-in-out;
 }
 .skills-body-resume-body-img:hover {
   opacity: 0.2;

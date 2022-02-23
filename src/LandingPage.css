@@ -152,15 +152,15 @@
   width: 100px;
   background-color: #79DAD6;
   border-radius: 10px;
-  border: 2px solid rgb(163, 160, 160);
+  border: 2px solid #977790;
   cursor: pointer;
-  transition: .8s ease-in-out;
+  transition: .6s ease-in-out;
   color: rgb(58, 54, 54);
 }
 
 .resume-home:hover{
   background-color: #FFDB09;
-  border: 2px solid rgb(129, 128, 128);
+  border: 2px solid #977790;
 }
 
 .resume-home-text{

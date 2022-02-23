@@ -13,10 +13,12 @@ function home() {
           in node.js and mongodb and little about knowledge of typescript.
         </p>
         <div>
+          <a href="https://github.com/" target='_blank'>
           <h4 className='left-part-content-heading-skills'>For My Resume</h4>
           <div className='resume-home'>
             <p className="resume-home-text">Click here</p>
           </div>
+          </a>
         </div>
       </div>
     </div>
