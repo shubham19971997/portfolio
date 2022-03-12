@@ -9,15 +9,19 @@ function home() {
       <div className='LandingPage-body-left-content'>
         <TypingEffect />
         <p className='LBLC-description'>
-          hello there I'm a aspiring React Developer who have a prior knowledge
-          in node.js and mongodb and little about knowledge of typescript.
+          I'm a aspiring React Developer who have a prior knowledge
+          in node.js and mongodb and little about knowledge of typescript. I am a self motivated person who is 
+          very inclined towards learning new technologies and implementing them efficiently.
         </p>
         <div>
-          <a href="https://github.com/" target='_blank'>
-          <h4 className='left-part-content-heading-skills'>For My Resume</h4>
-          <div className='resume-home'>
-            <p className="resume-home-text">Click here</p>
-          </div>
+          <h4 className='left-part-content-heading-skills'>My Resume</h4>
+          <a
+            href='https://drive.google.com/file/d/1RGdJYohlCRA6j1OANX482OXoJHgv3q8y/view?usp=sharing'
+            target='_blank'
+          >
+            <div className='resume-home'>
+              <p className='resume-home-text'>Click here</p>
+            </div>
           </a>
         </div>
       </div>

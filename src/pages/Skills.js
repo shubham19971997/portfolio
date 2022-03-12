@@ -49,7 +49,7 @@ function skills() {
           <h2>Resume</h2>
           <div className='skills-body-resume-body'>
             <div>
-              <a href="https://github.com/" target='_blank'>
+              <a href="https://drive.google.com/file/d/1RGdJYohlCRA6j1OANX482OXoJHgv3q8y/view?usp=sharing" target='_blank'>
               <img
                 src={resume}
                 alt='resume'
