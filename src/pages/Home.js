@@ -1,7 +1,7 @@
 import React from 'react'
 import '../LandingPage.css'
 import TypingEffect from '../TypingEffect'
-import { BsFacebook, BsLinkedin, BsGithub, BsInstagram } from 'react-icons/bs'
+
 
 function home() {
   return (
@@ -9,7 +9,7 @@ function home() {
       <div className='LandingPage-body-left-content'>
         <TypingEffect />
         <p className='LBLC-description'>
-          I'm a aspiring React Developer who have a prior knowledge
+          An aspiring React Developer who have a prior knowledge
           in node.js and mongodb and little about knowledge of typescript. I am a self motivated person who is 
           very inclined towards learning new technologies and implementing them efficiently.
         </p>
